@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ros2/bookros2_ws/install/br2_tracking/include/**",
+        "/home/ros2/bookros2_ws/install/br2_tracking_msgs/include/**",
+        "/home/ros2/bookros2_ws/install/br2_bt_patrolling/include/**",
+        "/home/ros2/bookros2_ws/install/br2_bt_bumpgo/include/**",
+        "/home/ros2/ros2_ws/install/my_robot_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/ros2/arduinobot_ws/src/arduinobot_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
