@@ -1,6 +1,7 @@
 /home/ros2/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/uninstall.dir
 /home/ros2/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/arduinobot_cpp_examples_uninstall.dir
 /home/ros2/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_service_server.dir
+/home/ros2/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_service_client.dir
 /home/ros2/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/test.dir
 /home/ros2/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/edit_cache.dir
 /home/ros2/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/rebuild_cache.dir
