@@ -1,0 +1,494 @@
+[0.066s] Invoking command in '/home/ros2/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/actions_py:/home/ros2/bookros2_ws/install/pmb2_maps:/home/ros2/bookros2_ws/install/pal_gripper_controller_configuration:/home/ros2/bookros2_ws/install/launch_pal:/home/ros2/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/arduinobot_ws/install/arduinobot_msgs/lib:/home/ros2/ros2_ws/install/my_robot_interfaces/lib:/home/ros2/bookros2_ws/install/groot/lib:/home/ros2/bookros2_ws/install/br2_vff_avoidance/lib:/home/ros2/bookros2_ws/install/br2_tracking/lib:/home/ros2/bookros2_ws/install/br2_tracking_msgs/lib:/home/ros2/bookros2_ws/install/br2_tf2_detector/lib:/home/ros2/bookros2_ws/install/br2_bt_patrolling/lib:/home/ros2/bookros2_ws/install/br2_bt_bumpgo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ros2/arduinobot_ws/build/arduinobot_cpp_examples -- -j16 -l16
+[0.077s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.161s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.323s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.329s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.337s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.348s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.435s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.441s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.524s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.638s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.629s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.644s] -- Looking for pthread.h
+[4.740s] -- Looking for pthread.h - found
+[4.740s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.841s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.842s] -- Found Threads: TRUE  
+[4.951s] -- Found arduinobot_msgs: 0.0.0 (/home/ros2/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[4.961s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.006s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.006s] -- Configured cppcheck include dirs: 
+[5.006s] -- Configured cppcheck exclude dirs and/or files: 
+[5.007s] -- Added test 'lint_cmake' to check CMake code style
+[5.007s] -- Added test 'uncrustify' to check C / C++ code style
+[5.007s] -- Configured uncrustify additional arguments: 
+[5.008s] -- Added test 'xmllint' to check XML markup files
+[5.008s] -- Configuring done
+[5.013s] -- Generating done
+[5.013s] -- Build files have been written to: /home/ros2/arduinobot_ws/build/arduinobot_cpp_examples
+[5.033s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[6.279s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.280s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.280s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:[m[K In constructor ‘[01m[KSimpleServiceServer::SimpleServiceServer()[m[K’:
+[6.280s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:12:43:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.280s]    12 |             RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Service add_two_ints is Ready");
+[6.280s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.280s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.280s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.280s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.280s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.280s]       |                 [01;36m[K^~~~~~[m[K
+[6.280s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.281s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.281s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:12:43:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.281s]    12 |             RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Service add_two_ints is Ready");
+[6.281s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.281s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.281s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.281s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.281s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.281s]       |                 [01;36m[K^~~~~~[m[K
+[6.281s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.281s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.282s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.282s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:12:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.282s]    12 |             [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Service add_two_ints is Ready");
+[6.282s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.282s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:12:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.282s]    12 |             [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Service add_two_ints is Ready");
+[6.282s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.282s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:12:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.282s]    12 |             [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Service add_two_ints is Ready");
+[6.282s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.282s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:12:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.282s]    12 |             [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Service add_two_ints is Ready");
+[6.282s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.283s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:12:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.283s]    12 |             [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Service add_two_ints is Ready");
+[6.283s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[6.283s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.283s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.283s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.284s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.284s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:12:43:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.284s]    12 |             RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Service add_two_ints is Ready");
+[6.284s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.284s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.284s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.284s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.284s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.285s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.285s]       |                 [01;36m[K^~~~~~[m[K
+[6.285s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.285s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.285s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:12:43:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.285s]    12 |             RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Service add_two_ints is Ready");
+[6.285s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.285s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.285s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.285s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.286s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.286s]       |                 [01;36m[K^~~~~~[m[K
+[6.286s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.286s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.286s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:[m[K In member function ‘[01m[Kvoid SimpleServiceServer::serviceCallback(std::shared_ptr<arduinobot_msgs::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<arduinobot_msgs::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[6.286s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:20:50:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.286s]    20 |             RCLCPP_INFO_STREAM([01;31m[Krclcpp::get_logger()[m[K, "New Request Received a: " << req->a << " b: " << req->b);
+[6.286s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.286s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.286s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.287s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.287s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.287s]       |                 [01;36m[K^~~~~~[m[K
+[6.287s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.287s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.287s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:20:50:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.287s]    20 |             RCLCPP_INFO_STREAM([01;31m[Krclcpp::get_logger()[m[K, "New Request Received a: " << req->a << " b: " << req->b);
+[6.287s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.287s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.287s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.287s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.287s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.287s]       |                 [01;36m[K^~~~~~[m[K
+[6.287s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.288s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.288s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:20:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.288s]    20 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcpp::get_logger(), "New Request Received a: " << req->a << " b: " << req->b);
+[6.288s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.288s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.288s]    20 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcpp::get_logger(), "New Request Received a: " << req->a << " b: " << req->b);
+[6.288s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.288s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:20:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.288s]    20 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcpp::get_logger(), "New Request Received a: " << req->a << " b: " << req->b);
+[6.288s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.288s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.288s]    20 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcpp::get_logger(), "New Request Received a: " << req->a << " b: " << req->b);
+[6.288s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.288s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:20:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.288s]    20 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcpp::get_logger(), "New Request Received a: " << req->a << " b: " << req->b);
+[6.288s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.288s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.289s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.289s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:20:50:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.289s]    20 |             RCLCPP_INFO_STREAM([01;31m[Krclcpp::get_logger()[m[K, "New Request Received a: " << req->a << " b: " << req->b);
+[6.289s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.289s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.289s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.289s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.289s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.289s]       |                 [01;36m[K^~~~~~[m[K
+[6.289s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.289s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.289s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:20:50:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.289s]    20 |             RCLCPP_INFO_STREAM([01;31m[Krclcpp::get_logger()[m[K, "New Request Received a: " << req->a << " b: " << req->b);
+[6.289s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.290s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.290s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.290s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.290s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.290s]       |                 [01;36m[K^~~~~~[m[K
+[6.290s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.290s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.290s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:22:50:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.290s]    22 |             RCLCPP_INFO_STREAM([01;31m[Krclcpp::get_logger()[m[K, "Returning sum: " << res->sum );
+[6.290s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.290s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.291s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.291s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.291s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.291s]       |                 [01;36m[K^~~~~~[m[K
+[6.291s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.291s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.291s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:22:50:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.291s]    22 |             RCLCPP_INFO_STREAM([01;31m[Krclcpp::get_logger()[m[K, "Returning sum: " << res->sum );
+[6.291s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.291s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.292s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.292s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.292s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.292s]       |                 [01;36m[K^~~~~~[m[K
+[6.292s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.292s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.292s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.292s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:22:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.292s]    22 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcpp::get_logger(), "Returning sum: " << res->sum );
+[6.292s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.292s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.292s]    22 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcpp::get_logger(), "Returning sum: " << res->sum );
+[6.292s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.292s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:22:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.292s]    22 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcpp::get_logger(), "Returning sum: " << res->sum );
+[6.292s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.292s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.293s]    22 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcpp::get_logger(), "Returning sum: " << res->sum );
+[6.293s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.293s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:22:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.293s]    22 |             [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcpp::get_logger(), "Returning sum: " << res->sum );
+[6.293s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.293s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.293s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.293s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:22:50:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.293s]    22 |             RCLCPP_INFO_STREAM([01;31m[Krclcpp::get_logger()[m[K, "Returning sum: " << res->sum );
+[6.293s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.293s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.294s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.294s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.294s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.294s]       |                 [01;36m[K^~~~~~[m[K
+[6.294s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.294s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.294s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:22:50:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[6.294s]    22 |             RCLCPP_INFO_STREAM([01;31m[Krclcpp::get_logger()[m[K, "Returning sum: " << res->sum );
+[6.294s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.294s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[6.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.295s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.295s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.295s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[6.295s]       |                 [01;36m[K^~~~~~[m[K
+[6.295s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.295s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:28:17:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&, rclcpp::SignalHandlerOptions)[m[K’
+[6.295s]    28 |     [01;31m[Krclcpp::init()[m[K;
+[6.295s]       |     [01;31m[K~~~~~~~~~~~~^~[m[K
+[6.295s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.296s]                  from [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:1[m[K:
+[6.296s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:75:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.296s]    75 | [01;36m[Kinit[m[K(
+[6.296s]       | [01;36m[K^~~~[m[K
+[6.296s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:27:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.296s]    27 | int main([01;35m[Kint argc[m[K, char* argv[]) {
+[6.296s]       |          [01;35m[K~~~~^~~~[m[K
+[6.296s] [01m[K/home/ros2/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp:27:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.296s]    27 | int main(int argc, [01;35m[Kchar* argv[][m[K) {
+[6.296s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[6.644s] gmake[2]: *** [CMakeFiles/simple_service_server.dir/build.make:76: CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o] Error 1
+[6.644s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_service_server.dir/all] Error 2
+[6.644s] gmake: *** [Makefile:146: all] Error 2
+[6.646s] Invoked command in '/home/ros2/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/actions_py:/home/ros2/bookros2_ws/install/pmb2_maps:/home/ros2/bookros2_ws/install/pal_gripper_controller_configuration:/home/ros2/bookros2_ws/install/launch_pal:/home/ros2/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/arduinobot_ws/install/arduinobot_msgs/lib:/home/ros2/ros2_ws/install/my_robot_interfaces/lib:/home/ros2/bookros2_ws/install/groot/lib:/home/ros2/bookros2_ws/install/br2_vff_avoidance/lib:/home/ros2/bookros2_ws/install/br2_tracking/lib:/home/ros2/bookros2_ws/install/br2_tracking_msgs/lib:/home/ros2/bookros2_ws/install/br2_tf2_detector/lib:/home/ros2/bookros2_ws/install/br2_bt_patrolling/lib:/home/ros2/bookros2_ws/install/br2_bt_bumpgo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/ros2/arduinobot_ws/build/arduinobot_cpp_examples -- -j16 -l16
