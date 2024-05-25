@@ -1,0 +1,42 @@
+[0.021s] Invoking command in '/home/ros2/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/actions_py:/home/ros2/bookros2_ws/install/pmb2_maps:/home/ros2/bookros2_ws/install/pal_gripper_controller_configuration:/home/ros2/bookros2_ws/install/launch_pal:/home/ros2/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/ros2/arduinobot_ws/src/arduinobot_utils -DCMAKE_INSTALL_PREFIX=/home/ros2/arduinobot_ws/install/arduinobot_utils
+[0.222s] -- The C compiler identification is GNU 11.4.0
+[0.600s] -- The CXX compiler identification is GNU 11.4.0
+[0.887s] -- Detecting C compiler ABI info
+[0.977s] -- Detecting C compiler ABI info - done
+[0.981s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.982s] -- Detecting C compile features
+[0.982s] -- Detecting C compile features - done
+[0.985s] -- Detecting CXX compiler ABI info
+[1.180s] -- Detecting CXX compiler ABI info - done
+[1.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.184s] -- Detecting CXX compile features
+[1.184s] -- Detecting CXX compile features - done
+[1.190s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.293s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.393s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.458s] -- Added test 'lint_cmake' to check CMake code style
+[1.460s] -- Added test 'xmllint' to check XML markup files
+[1.462s] -- Configuring done
+[1.463s] -- Generating done
+[1.464s] -- Build files have been written to: /home/ros2/arduinobot_ws/build/arduinobot_utils
+[1.467s] Invoked command in '/home/ros2/arduinobot_ws/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/actions_py:/home/ros2/bookros2_ws/install/pmb2_maps:/home/ros2/bookros2_ws/install/pal_gripper_controller_configuration:/home/ros2/bookros2_ws/install/launch_pal:/home/ros2/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/ros2/arduinobot_ws/src/arduinobot_utils -DCMAKE_INSTALL_PREFIX=/home/ros2/arduinobot_ws/install/arduinobot_utils
+[1.467s] Invoking command in '/home/ros2/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/actions_py:/home/ros2/bookros2_ws/install/pmb2_maps:/home/ros2/bookros2_ws/install/pal_gripper_controller_configuration:/home/ros2/bookros2_ws/install/launch_pal:/home/ros2/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/ros2/arduinobot_ws/build/arduinobot_utils -- -j16 -l16
+[1.489s] Invoked command in '/home/ros2/arduinobot_ws/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/actions_py:/home/ros2/bookros2_ws/install/pmb2_maps:/home/ros2/bookros2_ws/install/pal_gripper_controller_configuration:/home/ros2/bookros2_ws/install/launch_pal:/home/ros2/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/ros2/arduinobot_ws/build/arduinobot_utils -- -j16 -l16
+[1.504s] Invoking command in '/home/ros2/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/actions_py:/home/ros2/bookros2_ws/install/pmb2_maps:/home/ros2/bookros2_ws/install/pal_gripper_controller_configuration:/home/ros2/bookros2_ws/install/launch_pal:/home/ros2/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/ros2/arduinobot_ws/build/arduinobot_utils
+[1.508s] -- Install configuration: ""
+[1.508s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/package_run_dependencies/arduinobot_utils
+[1.508s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/parent_prefix_path/arduinobot_utils
+[1.509s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.sh
+[1.509s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/ament_prefix_path.dsv
+[1.509s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/path.sh
+[1.509s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/environment/path.dsv
+[1.509s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.bash
+[1.509s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.sh
+[1.509s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.zsh
+[1.509s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/local_setup.dsv
+[1.509s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.dsv
+[1.510s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/ament_index/resource_index/packages/arduinobot_utils
+[1.510s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig.cmake
+[1.510s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/cmake/arduinobot_utilsConfig-version.cmake
+[1.510s] -- Installing: /home/ros2/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.xml
+[1.511s] Invoked command in '/home/ros2/arduinobot_ws/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ros2_ws/install/actions_py:/home/ros2/bookros2_ws/install/pmb2_maps:/home/ros2/bookros2_ws/install/pal_gripper_controller_configuration:/home/ros2/bookros2_ws/install/launch_pal:/home/ros2/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/ros2/arduinobot_ws/build/arduinobot_utils
